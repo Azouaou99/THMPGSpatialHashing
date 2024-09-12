@@ -118,6 +118,6 @@ jobs:
           tag_name: release-${{ github.ref_name }}
           fail_on_unmatched_files: true
           files: |
-            artifacts/THMPGSpatialHashingPlugin_*_Linux.zip
-            artifacts/THMPGSpatialHashingPlugin_*_Windows.zip
-            artifacts/THMPGSpatialHashingPlugin_*_macOS.zip
+            artifacts/THMPGSpatialHashing_*_Linux.zip
+            artifacts/THMPGSpatialHashing_*_Windows.zip
+            artifacts/THMPGSpatialHashing_*_macOS.zip
